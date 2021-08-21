@@ -4,7 +4,7 @@ const Layout2 = () => {
     <div>
       <div className="container center">
       <div className="item">
-        Làm ny tớ nhé! 
+        <p>Mình cũng thích cậu lâu rồi ❤️</p> 
       </div>
       <div className="heart-shape"></div>
       </div>

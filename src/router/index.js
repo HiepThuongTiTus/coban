@@ -7,7 +7,6 @@ import {
 import App from "../App";
 import Layout from "../Layout"
 import Layout2 from "../Layout2"
-import Layout3 from "../Layout3"
 
 const routeApp = () => {
   return (
@@ -24,9 +23,6 @@ const routeApp = () => {
           </Route>
           <Route path="/chua">
             <Layout2 />
-          </Route>
-          <Route path="/co">
-            <Layout3 />
           </Route>
         </Switch>
       </Suspense>

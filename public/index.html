@@ -1135,5 +1135,19 @@ window.addEventListener('load', function(e) {
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <button class="button button2 btn btn-outline-warning" onmousemove="move()" id="no"> Không -_-</button>
+    <script>
+        function move()
+        {
+           let x = Math.random()*500;
+           let y = Math.random()*500;
+           let z = Math.random()*500;
+           let left = x+ "px";
+           let top =  y+ "px";
+          document.getElementById("no").style.left=left
+          document.getElementById("no").style.top=top
+    
+        }
+    </script>
   </body>
 </html>

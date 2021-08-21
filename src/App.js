@@ -1,11 +1,11 @@
 import React from 'react'
-import Header from './Header';
+import Chao from './Chao';
 import './App.css';
 
 function App() {
   return (
   <div>
-    <Header/>
+    <Chao />
   </div>
   );
 }

@@ -3,24 +3,20 @@ const Layout = () => {
   return (
     <div>
       <div className="container">
-        <div className="flex-start item1 item-1">
-          <p> Cậu có người thích chưa?</p>
-          <div>
+        <div className="item1 item-1">
+        <h1>Làm Người Yêu Mình Nhé</h1>
+          <p>Nếu Thoát ra là ĐỒNG Ý ❤️</p>
+        </div>
+      </div>
+      <div className="tite">
             <a
               href="/chua"
               className="btn btn-outline-warning"
               role="button"
               aria-disabled="true"
             >
-              Chưa có!
+              OK nè ❤️
             </a>
-          </div>
-          <div className="item1 item-2">
-            <a href="/co" className="btn" role="button" aria-disabled="true">
-              Có rồi!
-            </a>
-          </div>
-        </div>
       </div>
     </div>
   );
