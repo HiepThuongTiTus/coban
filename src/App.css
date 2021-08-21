@@ -23,7 +23,10 @@ h1{
 h1:hover{
   color: red;
 }
-
+.playy{
+  color:yellow;
+  font-weight: bold;
+}
 /* trangdau */
 .container {
   display: flex;
