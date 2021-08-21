@@ -4,7 +4,7 @@ const Chao = () => {
     <div>
       <div className="container1">
         <div className="item">
-          <p>Chào mừng bạn đã đến với câu hỏi trả lời nhanh của chúng tôi!</p>
+          <p>Chào mừng bạn đến với câu hỏi trả lời nhanh!</p>
         </div>
         <div className="tite">
             <a
